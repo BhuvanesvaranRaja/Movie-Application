@@ -1,0 +1,40 @@
+.Card-container{
+    width: 18rem;
+    background-color: var(--card-bg-color);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0);
+    border-radius: 4px;
+}
+
+.Card-img-container{
+width: 100%;
+height: 20rem;    
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: center center;
+    
+}
+.card-details{
+    color: var(--primary-text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+
+}
+.title{
+    font-size: 1.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:900;
+}
+.runtime{
+    display: flex;
+    justify-content:space-between;
+}
+.innertags{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: rgb(234, 28, 28);
+}
